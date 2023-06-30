@@ -1,10 +1,11 @@
 
 const NavBar = () => {
-    const navItems = <>
+    const navItems = <> 
+        <li><a>Services</a></li>
         <li><a>Portfolio</a></li>
         <li><a>about</a></li>
-        <li><a>contact</a></li>
         <li><a>Blog</a></li>
+        <li><a>Resume</a></li>
     </>
 
 
@@ -27,7 +28,7 @@ const NavBar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn">Resume</a>
+                <a className="btn">Contact</a>
             </div>
         </div>
     );
