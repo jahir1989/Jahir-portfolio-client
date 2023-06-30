@@ -1,3 +1,4 @@
+import cv from '../../../assets/CV Writing PH.pdf'
 
 const NavBar = () => {
     const navItems = <> 
@@ -5,12 +6,12 @@ const NavBar = () => {
         <li><a>Portfolio</a></li>
         <li><a>about</a></li>
         <li><a>Blog</a></li>
-        <li><a>Resume</a></li>
+        <li className='bg-sky-600 text-white rounded-md '><a>Resume</a></li>
     </>
 
 
     return (
-        <div className="navbar bg-base-100">
+        <div className=" text-sky-900 navbar bg-base-100">
             <div className="navbar-start">
                 <div className="dropdown">
                     <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -27,8 +28,8 @@ const NavBar = () => {
                     {navItems}
                 </ul>
             </div>
-            <div className="navbar-end">
-                <a className="btn">Contact</a>
+            <div className=" navbar-end">
+                <a className="bg-sky-900 text-white btn">Contact</a>
             </div>
         </div>
     );
