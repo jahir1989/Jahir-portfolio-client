@@ -5,6 +5,8 @@ import Banner from "../Pages/Home/Home/Banner";
 import Services from "../Pages/Home/Services/Services";
 import RecentWork from "../Pages/Home/Home/RecentWork/RecentWork";
 import MyProcess from "../Pages/Home/MyProcess/MyProcess";
+import MyBlog from "../Pages/Home/MyBlog/MyBlog";
+import MyLearning from "../Pages/Home/MyLearning/MyLearning";
 
 const Main = () => {
     return (
@@ -12,9 +14,11 @@ const Main = () => {
             <NavBar></NavBar>
             <Outlet></Outlet>
             <Banner></Banner>
+            <MyLearning></MyLearning>
             <Services></Services>
             <RecentWork></RecentWork>
             <MyProcess></MyProcess>
+            <MyBlog></MyBlog>
             <Footer></Footer>
         </div>
     );
