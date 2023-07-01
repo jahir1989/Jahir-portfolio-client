@@ -7,6 +7,8 @@ import RecentWork from "../Pages/Home/Home/RecentWork/RecentWork";
 import MyProcess from "../Pages/Home/MyProcess/MyProcess";
 import MyBlog from "../Pages/Home/MyBlog/MyBlog";
 import MyLearning from "../Pages/Home/MyLearning/MyLearning";
+import Contact from "../Pages/Home/Contact/Contact";
+import AboutMe from "../Pages/Home/AboutMe/AboutMe";
 
 const Main = () => {
     return (
@@ -18,7 +20,9 @@ const Main = () => {
             <Services></Services>
             <RecentWork></RecentWork>
             <MyProcess></MyProcess>
+            <AboutMe></AboutMe>
             <MyBlog></MyBlog>
+            <Contact></Contact>
             <Footer></Footer>
         </div>
     );

@@ -1,7 +1,7 @@
 
 const Services = () => {
     return (
-        <div>
+        <div id="service" className="pt-5">
             <h2 className="my-32 text-sky-900 text-6xl mx-auto text-center font-bold">My Services</h2>
             <div className="text-sky-900 flex my-24 gap-10 justify-center">
                 <div className=" p-10 card w-2/3 my-auto shadow-2xl hover:shadow-gray-400 ">

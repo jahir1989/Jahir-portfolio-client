@@ -4,8 +4,9 @@ import foodieDine from "../../../../assets/foodieDine.jpg"
 
 const RecentWork = () => {
     return (
-        <div className="py-32">
-            <h2 className="my-24 text-6xl font-bold text-sky-900">Recent Work</h2>
+        <div id="portfolio" className="py-32">
+            <h3 className="text-xl font-bold text-gray-400">Portfolio</h3>
+            <h2 className="mb-24 text-6xl font-bold text-sky-900">Recent Work</h2>
 
             <div className="flex gap-5 ">
                 <div className="">

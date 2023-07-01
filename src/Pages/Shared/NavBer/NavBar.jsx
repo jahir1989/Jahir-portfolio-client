@@ -1,12 +1,14 @@
-// import cv from '../../../assets/CV Writing PH.pdf'
+import { Link } from 'react-scroll'
+
 
 const NavBar = () => {
     const navItems = <> 
-        <li><a>Services</a></li>
-        <li><a>Portfolio</a></li>
-        <li><a>about</a></li>
-        <li><a>Blog</a></li>
-        <li className='bg-sky-500 text-white rounded-md shadow-lg shadow-sky-500/50 '><a>Resume</a></li>
+        <li><Link to='service' spy={true} smooth={true} offset={50} duration={800}>Services</Link></li>
+        <li><Link to='portfolio' spy={true} smooth={true} offset={50} duration={800}>Portfolio</Link></li>
+        <li><Link to='about' spy={true} smooth={true} offset={50} duration={800}>About</Link></li>
+        <li><Link to='blog' spy={true} smooth={true} offset={50} duration={800}>Blog</Link></li>
+        <li className='bg-sky-500 text-white rounded-md shadow-lg shadow-sky-500/50'>
+        <a href="https://drive.google.com/uc?id=1ZBQF-1zL5ptNu-ASk0iEKTNmJMKLFuFN&export=download">Resume</a></li>
     </>
 
 
