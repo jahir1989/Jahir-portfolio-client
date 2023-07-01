@@ -8,8 +8,8 @@ const Banner = () => {
                 <h2 className=' text-5xl font-bold '>I Build Custom <span className='text-sky-500'>Website Solutions</span> That Help Your <span className='text-sky-500'>Business Grow</span></h2>
                 <p className='mt-8'>I help you increase conversion and performance in every possible way.</p>
                 <div className='mt-8'>
-                    <button className='mr-5 btn btn-ghost bg-sky-900 text-white'>See My Work</button>
-                    <button className='btn btn-ghost bg-sky-500 text-white'>Start a Project</button>
+                    <button className='mr-5 btn btn-ghost text-white bg-sky-900 shadow-lg shadow-sky-900/50'>See My Work</button>
+                    <button className='btn btn-ghost text-white bg-sky-500 shadow-lg shadow-sky-900/50'>Start a Project</button>
                 </div>
             </div>
             <div className='w-1/2'>

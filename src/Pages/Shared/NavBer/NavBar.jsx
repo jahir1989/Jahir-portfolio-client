@@ -1,4 +1,4 @@
-import cv from '../../../assets/CV Writing PH.pdf'
+// import cv from '../../../assets/CV Writing PH.pdf'
 
 const NavBar = () => {
     const navItems = <> 
@@ -6,7 +6,7 @@ const NavBar = () => {
         <li><a>Portfolio</a></li>
         <li><a>about</a></li>
         <li><a>Blog</a></li>
-        <li className='bg-sky-600 text-white rounded-md '><a>Resume</a></li>
+        <li className='bg-sky-500 text-white rounded-md shadow-lg shadow-sky-500/50 '><a>Resume</a></li>
     </>
 
 
@@ -29,7 +29,7 @@ const NavBar = () => {
                 </ul>
             </div>
             <div className=" navbar-end">
-                <a className="bg-sky-900 text-white btn">Contact</a>
+                <a className=" text-white btn btn-ghost bg-sky-900 shadow-lg shadow-sky-900/50">Contact</a>
             </div>
         </div>
     );
